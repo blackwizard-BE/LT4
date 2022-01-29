@@ -7,6 +7,29 @@
         mc:Ignorable="d"
         Title="LT4_OEF1" Height="450" Width="800">
     <Grid>
+        <TextBox x:Name="txbVoornaam" HorizontalAlignment="Left" Margin="94,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26" VerticalContentAlignment="Center"/>
+        <Label x:Name="lblVoornaam" Content="Voornaam:" HorizontalAlignment="Left" Margin="27,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbFamilienaam" HorizontalAlignment="Left" Margin="94,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26" VerticalContentAlignment="Center"/>
+        <Label x:Name="lblFamilienaam" Content="Familienaam:" HorizontalAlignment="Left" Margin="16,36,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbMaandwedde" HorizontalAlignment="Left" Margin="94,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26" VerticalContentAlignment="Center"/>
+        <Label x:Name="lblMaandwedde" Content="Maandwedde:" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbStatuut" HorizontalAlignment="Left" Margin="94,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26" VerticalContentAlignment="Center"/>
+        <Label x:Name="lblStatuut" Content="Statuut:" HorizontalAlignment="Left" Margin="43,88,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblGeslacht" Content="Geslacht:" HorizontalAlignment="Left" Margin="37,114,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cmbGeslacht" HorizontalAlignment="Left" Margin="94,114,0,0" VerticalAlignment="Top" Width="120" Height="26" HorizontalContentAlignment="Center"/>
+        <ListBox x:Name="lsbLeden"  HorizontalAlignment="Left" Width="256" Height="375" VerticalAlignment="Top" Margin="240,36,0,0" VerticalContentAlignment="Top" SelectionChanged="lsbLeden_SelectionChanged"/>
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top" Height="32" Width="204" Click="btnAdd_Click"/>
+        <Label x:Name="lblLeden" Content="Werknemers:" HorizontalAlignment="Left" Margin="240,10,0,0" VerticalAlignment="Top" Width="256" FontWeight="Bold"/>
+        <Label x:Name="lbllid" Content="Werknemer:" HorizontalAlignment="Left" Margin="501,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="lblLidRes" Content="" HorizontalAlignment="Left" Margin="503,36,0,0" VerticalAlignment="Top" Height="156" Width="287"/>
+        <TextBox x:Name="txbOpslag" HorizontalAlignment="Left" Margin="16,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Height="26" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+        <Label x:Name="lblOpslagSec" Content="Opslag:" HorizontalAlignment="Left" Margin="10,190,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnPlus" Content="+" HorizontalAlignment="Left" Margin="162,221,0,0" VerticalAlignment="Top" Height="26" Width="26" Click="btnPlus_Click"/>
+        <Button x:Name="btnMin" Content="-" HorizontalAlignment="Left" Margin="188,221,0,0" VerticalAlignment="Top" Height="26" Width="26" Click="btnMin_Click"/>
+        <Button x:Name="btnPlusOneHalf" Content="+1.5%" HorizontalAlignment="Left" Margin="16,252,0,0" VerticalAlignment="Top" Height="24" Width="198" Click="btnPlusOneHalf_Click"/>
+        <Label x:Name="lblZoeken" Content="Zoeken:" HorizontalAlignment="Left" Margin="503,197,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="txbZoeken" HorizontalAlignment="Left" Margin="503,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26" VerticalContentAlignment="Center"/>
+        <Button x:Name="btnZoeken" Content="Zoeken" HorizontalAlignment="Left" Margin="623,228,0,0" VerticalAlignment="Top" Height="26" Width="50" Click="btnZoeken_Click"/>
 
     </Grid>
 </Window>
