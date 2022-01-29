@@ -1,0 +1,16 @@
+﻿<Window x:Class="LT4_OEF2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LT4_OEF2"
+        mc:Ignorable="d"
+        Title="LT4_OEF2" Height="222" Width="193">
+    <Grid>
+        <TextBox x:Name="txbInwoners" HorizontalAlignment="Left" Margin="10,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" VerticalContentAlignment="Center" Height="39" FontSize="20"/>
+        <Label x:Name="lblInwoners" Content="Aantal inwoners:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="btnBerekenen" Content="Berekenen" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" Height="32" Width="156" FontSize="20" Click="btnBerekenen_Click"/>
+        <Label x:Name="lblAantalZetels" Content="Aantal zetels:" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top" Width="156" Height="43" FontSize="20"/>
+
+    </Grid>
+</Window>
